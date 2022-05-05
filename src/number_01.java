@@ -1,5 +1,7 @@
 public class number_01 {
     public static void main(String[] args) {
         System.out.println("hello world!");
+        int value;
+        value = 234;
     }
 }
