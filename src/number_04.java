@@ -1,7 +1,6 @@
 public class number_04 {
     public static int getMaxInt(){
-        int a;
-        int max = Integer.max(a);
+        int max = Integer.MAX_VALUE();
         return max;
     }
 }
