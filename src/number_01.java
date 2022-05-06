@@ -1,6 +1,6 @@
 public class number_01 {
     public static void main(String[] args) {
-        String name = "Мисак";
+        String name = "Misak";
         System.out.println(name);
 
     }
