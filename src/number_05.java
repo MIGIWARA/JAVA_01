@@ -7,7 +7,7 @@ public class number_05 {
     public static int incrementIfPositive(int a) {
         if(a < 0){
             return a;
-        }else {
+        }else if {
             a++;
         }
         return a;
