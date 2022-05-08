@@ -10,7 +10,7 @@ public class number_08 {
         System.out.println(determineRainfall(8,12));
     }
     public static long determineRainfall(double area, double rainfallAmount) {
-        long result = (long) ((area * 1000000) * (rainfallAmount * 2));
-        return result;
+        double result =  ((area * 1000000) * (rainfallAmount * 2));
+        return (long) result;
     }
 }
