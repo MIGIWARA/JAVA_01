@@ -1,3 +1,8 @@
+/**
+ * В классе Main создайте метод static void printJavaWord(int count),
+ * который будет принимать целочисленный параметр и выводить в консоль
+ * слово “Java” равное ему количество раз.
+ */
 public class number_07 {
     public static void main(String[] args) {
         System.out.println(determineAdult(-1));
