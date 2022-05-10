@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Урок с кодом
  * Cоздайте метод static int[] fillArray(int x), который принимает целое
@@ -9,14 +11,13 @@
  */
 public class number_11 {
     public static void main(String[] args) {
-        fillArray(9);
+        System.out.println(Arrays.toString(fillArray(9)));
     }
+
     static int[] fillArray(int x){
         int[] values = new int [x];
         for (int i = 0; i < values.length; i++) {
             values[i] = i;
-            System.out.print(values[i]+" ");
-
         }
         return values;
     }
