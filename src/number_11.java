@@ -14,7 +14,7 @@ public class number_11 {
     static int[] fillArray(int x){
         int[] values = new int [x];
         for (int i = 0; i < values.length; i++) {
-            values[i] = i + 1;// крч я писал i++ и он так не работал
+            values[i] = i;
             System.out.print(values[i]+" ");
 
         }
