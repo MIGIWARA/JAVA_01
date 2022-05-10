@@ -10,5 +10,20 @@
  * вызовите метод sayHello().
  */
 public class number_12 {
+    public static class Human{
+        private String name;
+        private int age;
+        public Human(String name, int age){
+            this.name = name;
+            this.age = age;
+        }
+        public void sayHello(){
+            System.out.println("Привет, меня зовут" + name +", мне" + age +" лет.");
+        }
+    }
 
+    public static void main(String[] args) {
+        Human hello = new Human("Мисак", 21);
+        hello.sayHello();
+    }
 }
