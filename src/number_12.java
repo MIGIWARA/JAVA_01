@@ -18,12 +18,12 @@ public class number_12 {
             this.age = age;
         }
         public void sayHello(){
-            System.out.println("Привет, меня зовут" + name +", мне" + age +" лет.");
+            System.out.println("Привет, меня зовут " + name +", мне" + age +" лет.");
         }
     }
 
     public static void main(String[] args) {
-        Human hello = new Human("Мисак", 21);
+        Human hello = new Human("Misak", 21);
         hello.sayHello();
     }
 }
